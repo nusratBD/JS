@@ -24,7 +24,7 @@ console.log(fullName2);
 
 //02
 let names = ['Abul', 'Babul', 'Kabul', 'Cabul', 'Jabul'];
-let nameLength = `<h1 class="friend">Friend Quantity-${names.length}</h1>`;//Except variable, we can use any valid JS expression within the string literals
+let nameLength = `<h1 class="friend">Friend Quantity-${names.length}</h1>`;//Ont ony variables, we can use any valid JS expression inside the string literals
 // console.log(nameLength);
 
 //03
