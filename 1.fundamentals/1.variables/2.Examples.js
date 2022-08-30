@@ -113,7 +113,7 @@ let2 = 'let2';
 console.log(let2);//output: let2
 /* const const2;
 const2 = 'const2';
-console.log(const2);//output: errror: const2 = 'const2';
+console.log(const2);//output: errror: Missing initializer in const declaration;
  */
 
 
