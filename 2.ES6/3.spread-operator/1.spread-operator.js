@@ -8,7 +8,7 @@ output: [
 */
 console.log(...numbers);
 /* 
-(...) is spread operator. spread operator 
+(...) is spread operator.  
 output: 23 17 56 15 27 11 99
 */
 
