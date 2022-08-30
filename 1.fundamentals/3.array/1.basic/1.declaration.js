@@ -1,3 +1,3 @@
 let vowels = ['a', 'e', 'i', 'o', 'u'];
 console.log(vowels);
-//output: [[ 'a', 'e', 'i', 'o', 'u' ]
+//output: [ 'a', 'e', 'i', 'o', 'u' ]
