@@ -5,3 +5,13 @@ const names = ['Nusrat', 'Hurain', 'Nuha', 'Sweety', 'Koly', 'Dipti', 'Fast Code
 for(const name of names){
     console.log(name);
 }
+/* 
+output:
+Nusrat
+Hurain
+Nuha
+Sweety
+Koly
+Dipti
+Fast Coders
+*/
