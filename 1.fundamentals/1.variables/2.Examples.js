@@ -17,9 +17,6 @@ var z = 'var'; */
 let variables can be updated but not re-declared; 
 const variables can neither be updated nor re-declared.
 */
-
-
-
 //a)var
 //01. Reassign
 var var1 = 5;
@@ -103,6 +100,8 @@ letFunction();
 
 //3.const: same to the let: block scope
 /* ----------------------------------------------------------------------------------------- */
+
+
 
 
 /* 4)While var and let can be declared without being initialized, const must be initialized during declaration. */
