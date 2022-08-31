@@ -1,7 +1,6 @@
 /* 
 Session storage is fully same to local storage.
-But the only difference is: it expires after refreshing
-the page or visitng to another tab.
+But the only difference is: it expires after refreshingthe page or visitng to another tab.
 */
 
 /* 
