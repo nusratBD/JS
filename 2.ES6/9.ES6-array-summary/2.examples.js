@@ -47,7 +47,7 @@ output: [
 */
 
 /* 
-3. out all the laptops from the products.
+3. take all the laptops out from the product.
 Use of filter
 */
 const filterProduct = products.filter(product=>product.name!=='laptop');
