@@ -19,3 +19,4 @@ for(let product of products){
     }
 }
 console.log(searchValue);
+/* output: [ 'Dell Laptop', 'hp laptop', 'Tesla Laptop', 'Asus laptop' ] */

@@ -19,3 +19,13 @@ for(let product of products){
     }
 }
 console.log(searchValue);
+/* 
+output:
+[
+  'Tesla Laptop',
+  'tesla Motors',
+  'Tesla Rocket',
+  'Tesla Smart Watch',
+  'Tesla phone'
+]
+*/
