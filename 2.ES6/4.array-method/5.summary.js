@@ -9,12 +9,12 @@ All this are applicable only for array
 /* 
 map: map works on an array. It loops(for of) the array, then do necessary
 operation. After that it pushes the operate output into a new array and 
-return it.
+returns it.
 */
 
 /* 
 filter: filter works on an array. It loops on the element of the array. 
-While looping if the value matches the condition. it pushes the value
+While looping if the value matches the condition, it pushes the value
 inside of a new array. Finally it returns the new array. If no data matches 
 the condition, it returns an empty array.
 */
@@ -23,7 +23,7 @@ the condition, it returns an empty array.
 find: find works on an array. It loops on the element of the array.
 While looping, if any value matches the condition, it returns that value
 and stop looping. It just retuns the first value corresponding to the condition
-without any array. If it doesn't find any data according to the data, it
+without any array. If it doesn't find any data according to the consdition, it
 returns 'undefined', but no array.
 */
 
