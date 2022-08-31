@@ -8,7 +8,7 @@ const products = [
 ]
 
 //01.map
-/* Take all the brand from theobjects and push them into an array */
+/* Take all the brand from the given object and push them into an array */
 const brand = products.map(product=>product.brand);
 console.log(brand);
 //output: [ 'hp', 'Samsung', 'Redmi', 'acer', 'walton', 'lenovo' ]
