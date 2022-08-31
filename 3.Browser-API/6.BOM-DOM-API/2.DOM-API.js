@@ -1,5 +1,5 @@
 /* 
-DOM: Document Object Model. It works with browser not with the JS.
+DOM: Document Object Model. It works with the browser not with the JS.
 Example: document.getElementById('test');
 It is called DOM(Document Object Model), because it is similar to object property access. 
 Example: 
