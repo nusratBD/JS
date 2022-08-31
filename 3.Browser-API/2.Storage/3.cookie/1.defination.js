@@ -1,6 +1,6 @@
 /* 
-Cookies are small pieces of text sent to your browser by a website you visit. 
-They help that website remember information about your visit, 
+Cookies are small pieces of text sent to your browser by a website you visited. 
+They help that website to remember information about your visit, 
 which can both make it easier to visit the site again and make 
 the site more useful to you.
 */
