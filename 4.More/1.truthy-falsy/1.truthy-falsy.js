@@ -52,3 +52,5 @@ else{
 else{
     console.log('Falsy:',x);
 } */
+let x;
+console.log(x)//output: undefined

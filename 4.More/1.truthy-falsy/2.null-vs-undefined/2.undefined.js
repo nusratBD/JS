@@ -17,7 +17,7 @@ const add = (a,b) =>{
     return;
 }
 const result2 = add(2,3);
-// console.log(result2);
+console.log(result2);//output: undefined
 
 
 // 04: Parameter that isn't pass
