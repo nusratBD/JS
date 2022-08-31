@@ -1,5 +1,3 @@
-const { is } = require("@babel/types");
-
 const money = 80;
 const cokePrice = 60;
 /* 
@@ -33,5 +31,5 @@ isActive && showUser();//output: User is Active
 isActive || hideUser();//output: nothing
 
 //06. toggle boolean
-isActive = !isActive;
-console.log(isActive);//output: false
+console.log(!isActive);//output: false
+console.log(!!isActive);//output: true
