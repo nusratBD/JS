@@ -1,5 +1,5 @@
 /* 
-1. forEach, array, for of: applicable for array
+1. forEach, map, for of: applicable for array
 2. for in: applicable for object
 */
 
