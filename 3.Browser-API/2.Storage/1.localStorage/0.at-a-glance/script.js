@@ -1,9 +1,10 @@
 /* 
 1. If we want to keep an array to the local storage, we must keep it in
 JSON stringify format. Otherwise it will store the data just as a plain text.
+That means if we send [2, 3, 4, 5], it will be stored like: 2, 3, 4, 5 not[2, 3, 4, 5].
 
-2. If we want to keep an array to the local storage, we must keep it in
-JSON stringify format. Otherwise it store [Object Object];
+2. If we want to keep an object to the local storage, we must keep it in
+JSON stringify format. Otherwise it will store [Object Object];
 */
 function saveProduct(){
     const productField = document.getElementById('product');

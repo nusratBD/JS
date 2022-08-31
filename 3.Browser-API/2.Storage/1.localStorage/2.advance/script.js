@@ -25,7 +25,7 @@ const addToLocalStorage = () =>{
     }
 
     else{
-        cart = [];
+        cart = test;
         cart.push({product: product, quantity: 1, total: price});
         // console.log(cart);
     }
