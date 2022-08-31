@@ -6,7 +6,8 @@ let result1 = numbers.filter(number => number>20);//the numbers that are greater
 console.log(result1);//output: [ 945, 67 ]
 
 /*
-If the parameter matches the condition, it will provide the full element(full object) in an array. If it does not match the condition, it will give an empty array.
+If the parameter matches the condition, it will provide the full element(full object) in an array. 
+If it does not match the condition, it will give an empty array.
 */
 const shopping = [
     {name: 'laptop', price: '50000'},
