@@ -1,7 +1,7 @@
 /*
 Same as map. But it doesn't return any value (inside of an array). If we console
 inside, we will get the value out of the array. It is fully similar to for loop.
-That means the data we get in forEach can only be used inside of it. We can not 
+That means the data we get in forEach can only be used inside of forEach. We can not 
 access it outside of the loop.
 */
 const shopping = [
