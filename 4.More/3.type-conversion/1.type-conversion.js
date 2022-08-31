@@ -1,11 +1,10 @@
-//1. num to string
-const num = 50;
-console.log(typeof num, num);//output: number 50
-const stringNum = num + '';
-console.log(typeof stringNum, stringNum);//output: string 50
+const value = '100';
+console.log(typeof value, value);//output: string 100
 
-//2. string to num
-const input = '980';
-console.log(typeof input, input);//output: string 980
-const inputNum = +input;
-console.log(typeof inputNum, inputNum);//output: number 980
+//1. string to number
+console.log(typeof parseInt(value), value);//output: number 100
+console.log(typeof parseFloat(value), value);
+
+//2. number to string
+const y = 20;
+console.log(typeof JSON.stringify(y),y);//output: string 20
