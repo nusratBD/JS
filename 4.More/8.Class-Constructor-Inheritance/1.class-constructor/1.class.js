@@ -1,4 +1,4 @@
-/* Class is used to created object. The first letter of a class name should be capital.*/
+/* Class is used to creat object. The first letter of a class name should be capital.*/
 class Support{
     name;
     service='Web Development';
