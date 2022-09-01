@@ -11,6 +11,6 @@ function test(){
     count++;
     console.log(name, count);
 }
-test();
-test();
-test();
+test();//output: Nusrat 1
+test();//output: Nusrat 2
+test();//output: Nusrat 3
