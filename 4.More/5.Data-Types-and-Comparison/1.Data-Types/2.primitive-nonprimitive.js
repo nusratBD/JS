@@ -1,3 +1,4 @@
+/* immutable: unchanging over time or unable to be changed. */
 /* 
 Data Types:
 a)Primitive: Only one value, immutable
