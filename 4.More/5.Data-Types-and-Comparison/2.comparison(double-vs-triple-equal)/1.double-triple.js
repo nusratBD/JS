@@ -13,7 +13,7 @@ if(num1 == num2){
 }
 else{
     console.log('Double Equal: False');
-}
+}//output: Double Equal: True
 
 //Case 02
 const x = 2;
@@ -23,7 +23,7 @@ if(x==y){
 }
 else{
     console.log('Double Equal: False');
-}
+}//output: Double Equal: True
 
 //Case 03
 if(x===y){
@@ -31,4 +31,4 @@ if(x===y){
 }
 else{
     console.log('Triple Equal: False')
-}
+}//output: Triple Equal: False
