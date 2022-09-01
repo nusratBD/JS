@@ -1,4 +1,4 @@
-//Method: Function except constructor inside of a class is called method
+//Method: Function, except constructor, inside of a class is called method
 //Parent Class
 class Self{
     name;
@@ -22,5 +22,5 @@ class Mother extends Self{
     }
 }
 let motherRole = new Mother('Salma Begum', 53, 'mother');
-console.log(motherRole)
-motherRole.mother();
+console.log(motherRole)//output: Mother { name: 'Salma Begum', age: 53, role: 'mother' }
+motherRole.mother();//output: Salma Begum is 53 years old. She is a mother .
