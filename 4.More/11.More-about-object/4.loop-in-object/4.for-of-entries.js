@@ -6,4 +6,11 @@ const self = {
 }
 for(const [key, value] of Object.entries(self)){
     console.log(key,': ',value);
+    /* 
+    output:
+    name :  Nusrat Hurain
+    age :  25
+    profession :  Software Engineer
+    salary :  50000000
+    */
 }
