@@ -13,11 +13,17 @@ test1(); //output: window
 const obj = {
     name: function(){
         console.log(this);//output: full object
-        console.log(this.age);//output: obects age property
+        console.log(this.age);//output: objects age property
     },
     age:25
 }
-obj.name();//output: object
+console.log(obj);//output: { name: [Function: name], age: 25 }
+obj.name();
+/* 
+output:
+{ name: [Function: name], age: 25 }
+25
+*/
 
 //03. Object(this) is binded to a function: it will convert 'this' window to object
 const obj1 = {
@@ -51,7 +57,7 @@ const obj3 = {
         console.log('Hello', this.name);
         const name = this.name;
         const function2 = ()=> {
-            console.log('Function: ',name);//function2 is inside of study() function. SO here 'this' is window and it can not access object property with this.name. So, we have to store it in another variable outside of function2 and the access it.
+            console.log('Function: ',name);//function2 is inside of study() function. So here 'this' is window and it can not access object property with this.name. So, we have to store it in another variable outside of function2 and then access it.
         }
         function2();
         }
