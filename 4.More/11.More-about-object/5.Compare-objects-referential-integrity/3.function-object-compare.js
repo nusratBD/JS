@@ -16,4 +16,4 @@ for(const key in first){
 }
 }
 const result = compare(first, second);
-console.log(result);
+console.log(result);//output: true
