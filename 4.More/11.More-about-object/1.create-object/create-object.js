@@ -9,7 +9,7 @@ console.log(person);//output: {}
 const human = Object.create(null);
 console.log(human);//output: [Object: null prototype] {}
 const human2 = Object.create(self);
-console.log(self.profession);//output: Software Engineer
+console.log(human2.profession);//output: Software Engineer
 
 //04. Class: Syntactical Sugar
 class People{
