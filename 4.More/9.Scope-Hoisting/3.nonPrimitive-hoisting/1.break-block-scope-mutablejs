@@ -1,0 +1,37 @@
+//deep-copy and swallow-copy
+//01.
+let min = 6;
+for(i=0; i<=5; i++){
+    if(min<i){
+        min = i;
+    }
+}
+console.log(min);//output: 6. because of block hoisting
+
+//02.
+const array = [23, 45, 12, 78, 56, 86, 13, 16];
+let max = array[0];
+for(let i= 1; i<=array.length; i++){
+    if(array[i]>max){
+        max = array[i];
+    }
+}
+console.log(max);//output: 86
+/* 
+As array and object are non-primitive data, it is mutable. So, by reference
+we get the changed value outside of the block.
+*/
+
+
+//03.
+const products = [{price: 100}, {price: 200}, {price: 300}];
+let max2 = 50;
+for(let i=0; i<products.length; i++){
+    if(products[i].price>max)
+    max2 = products[i].price;
+}
+console.log(max2);//output: 300
+/* 
+As array and object are non-primitive data, it is mutable. So, by reference
+we get the changed value outside of the block.
+*/
