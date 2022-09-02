@@ -1,3 +1,7 @@
+/* 
+1. keys returns an array of all object property name.
+2. values returns an array of all object values.
+*/
 const self = {
     name: 'Nusrat Hurain',
     age: 25,
