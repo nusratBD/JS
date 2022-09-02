@@ -5,4 +5,12 @@ const self = {
     salary: 50000000
 }
 delete self.age;
-console.log(self);;
+console.log(self);
+/* 
+output:
+{
+  name: 'Nusrat Hurain',
+  profession: 'Software Engineer',
+  salary: 50000000
+}
+*/
