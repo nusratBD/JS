@@ -64,5 +64,5 @@ Prototypical inheritance is chaining method from bottom to top
 Here, name=>sisterRole2=>Sister=>Self(It got the name here)
 */
 console.log(sisterRole2.__proto__.__proto__.__proto__);//prototypical chain/ protypical Inheritance
-console.log(sisterRole.role);
+console.log(sisterRole.profession);
 // console.log(sister.profession); output: error. Because profession is not the property of Sister class
