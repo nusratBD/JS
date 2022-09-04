@@ -1,5 +1,5 @@
 //We are able to runt this code only in browser while visiting a website
-document.cookie;//show cookie
+document.cookie;//All the cookies in an string
 document.cookie.split('; ');//It will provide an array of the cookies
 document.cookie.split('; ').map(c=>console.log(c));//Show the data as a plain text.
 document.cookie.split('; ').map(c=>console.log(c.split('=')));//show every key and value in an array.
@@ -11,5 +11,6 @@ document.cookie.split('; ').find(c=>c.includes('country')).split('=')[1]
 /* 
 Summary:
 1. In every website we can set cookie, read cookie.
-2. When we send data to server, we can send cookie(on header). Server can read cookie and set cookie.
+2. When we send data to server, we can send cookie(on header). Server can read cookie and write cookie.
+But server can not do the same thing for storage(local and session);
 */
