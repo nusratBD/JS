@@ -16,3 +16,9 @@ It first finds 'balance' variable in it.
 If it does not find it, it searchs gradually on the top.
 Where it gets the value, from there it brings it and uses it.
 */
+
+/* 
+Scope chain: When a variable is uesd in a scope which is not declared there, 
+JS searchs it to the upper scopes. When it finds that variable, 
+it catchs it and uses to that particular place.
+*/
