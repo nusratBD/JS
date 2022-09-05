@@ -1,0 +1,1 @@
+/* When any JS function return anything, the function execution context runs out. */
